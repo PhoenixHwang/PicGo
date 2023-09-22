@@ -1,0 +1,186 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": "Ey0xeZpSmwyVohuurqKjOiiGbcZFApCE",
+      "_configName": "Default",
+      "_id": "f45defe3-b2eb-4583-a0b0-840bf844db54",
+      "_createdAt": 1680686541645,
+      "_updatedAt": 1680687851333,
+      "backupDomain": "smms.app"
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      }
+    ],
+    "github": {
+      "_configName": "Default",
+      "_id": "75e50bd0-940a-4517-8061-d8a22f6e4888",
+      "_createdAt": 1680681916717,
+      "_updatedAt": 1680682095760,
+      "repo": "PhoenixHwang/PicGo",
+      "branch": "main",
+      "token": "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",
+      "path": "Fig/",
+      "customUrl": "https://cdn.staticaly.com/gh/PhoenixHwang/PicGo@master"
+    },
+    "qiniu": {
+      "_configName": "Default",
+      "_id": "0866f238-295e-40bd-814a-481c4c8805bb",
+      "_createdAt": 1680686611382,
+      "_updatedAt": 1680686611382
+    },
+    "imgur": {
+      "_configName": "Default",
+      "_id": "eab86a0c-7065-4ef7-bdda-b0fc9e3b9ce6",
+      "_createdAt": 1680686619441,
+      "_updatedAt": 1680686619441
+    },
+    "local": {
+      "_configName": "Default",
+      "_id": "eb11e3ee-ea04-4c40-90e6-1151e3872dba",
+      "_createdAt": 1695406104533,
+      "_updatedAt": 1695406104533
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "F5",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": false,
+    "autoStart": true,
+    "deleteCloudFile": true,
+    "uploadNotification": true,
+    "privacyEnsure": true,
+    "rename": false,
+    "autoRename": true,
+    "isCustomMiniIcon": false,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "isListeningClipboard": false,
+    "sync": {
+      "type": "github",
+      "username": "PhoenixHwang",
+      "repo": "PicGo",
+      "branch": "main",
+      "token": "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",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "75e50bd0-940a-4517-8061-d8a22f6e4888",
+          "_createdAt": 1680681916717,
+          "_updatedAt": 1680682095760,
+          "repo": "PhoenixHwang/PicGo",
+          "branch": "main",
+          "token": "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",
+          "path": "Fig/",
+          "customUrl": "https://cdn.staticaly.com/gh/PhoenixHwang/PicGo@master"
+        }
+      ],
+      "defaultId": "75e50bd0-940a-4517-8061-d8a22f6e4888"
+    },
+    "smms": {
+      "configList": [
+        {
+          "token": "Ey0xeZpSmwyVohuurqKjOiiGbcZFApCE",
+          "_configName": "Default",
+          "_id": "f45defe3-b2eb-4583-a0b0-840bf844db54",
+          "_createdAt": 1680686541645,
+          "_updatedAt": 1680687851333,
+          "backupDomain": "smms.app"
+        }
+      ],
+      "defaultId": "f45defe3-b2eb-4583-a0b0-840bf844db54"
+    },
+    "qiniu": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "0866f238-295e-40bd-814a-481c4c8805bb",
+          "_createdAt": 1680686611382,
+          "_updatedAt": 1680686611382
+        }
+      ],
+      "defaultId": "0866f238-295e-40bd-814a-481c4c8805bb"
+    },
+    "imgur": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "eab86a0c-7065-4ef7-bdda-b0fc9e3b9ce6",
+          "_createdAt": 1680686619441,
+          "_updatedAt": 1680686619441
+        }
+      ],
+      "defaultId": "eab86a0c-7065-4ef7-bdda-b0fc9e3b9ce6"
+    },
+    "local": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "eb11e3ee-ea04-4c40-90e6-1151e3872dba",
+          "_createdAt": 1695406104533,
+          "_updatedAt": 1695406104533
+        }
+      ],
+      "defaultId": "eb11e3ee-ea04-4c40-90e6-1151e3872dba"
+    }
+  },
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI"
+}
