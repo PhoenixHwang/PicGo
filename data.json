@@ -50,16 +50,31 @@
         "type": "webdavplist",
         "name": "WebDAV",
         "visible": false
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": false
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": false
+      },
+      {
+        "type": "telegraphplist",
+        "name": "Telegraph",
+        "visible": false
       }
     ],
     "github": {
       "_configName": "Default",
       "_id": "75e50bd0-940a-4517-8061-d8a22f6e4888",
       "_createdAt": 1680681916717,
-      "_updatedAt": 1680682095760,
+      "_updatedAt": 1695407595669,
       "repo": "PhoenixHwang/PicGo",
       "branch": "main",
-      "token": "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",
+      "token": "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",
       "path": "Fig/",
       "customUrl": "https://cdn.staticaly.com/gh/PhoenixHwang/PicGo@master"
     },
@@ -80,6 +95,18 @@
       "_id": "eb11e3ee-ea04-4c40-90e6-1151e3872dba",
       "_createdAt": 1695406104533,
       "_updatedAt": 1695406104533
+    },
+    "sftpplist": {
+      "_configName": "Default",
+      "_id": "ccdbf7ad-3e48-434c-8ab5-88c8c59ce194",
+      "_createdAt": 1695406945685,
+      "_updatedAt": 1695406945685
+    },
+    "telegraphplist": {
+      "_configName": "Default",
+      "_id": "a66cecfc-a1d3-4ba8-b6c3-b55a112b664b",
+      "_createdAt": 1695406946477,
+      "_updatedAt": 1695406946477
     }
   },
   "settings": {
@@ -91,7 +118,7 @@
         "label": "QUICK_UPLOAD"
       }
     },
-    "showUpdateTip": false,
+    "showUpdateTip": true,
     "autoStart": true,
     "deleteCloudFile": true,
     "uploadNotification": true,
@@ -110,7 +137,7 @@
       "username": "PhoenixHwang",
       "repo": "PicGo",
       "branch": "main",
-      "token": "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",
+      "token": "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",
       "proxy": "",
       "interval": 60
     }
@@ -123,10 +150,10 @@
           "_configName": "Default",
           "_id": "75e50bd0-940a-4517-8061-d8a22f6e4888",
           "_createdAt": 1680681916717,
-          "_updatedAt": 1680682095760,
+          "_updatedAt": 1695407595669,
           "repo": "PhoenixHwang/PicGo",
           "branch": "main",
-          "token": "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",
+          "token": "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",
           "path": "Fig/",
           "customUrl": "https://cdn.staticaly.com/gh/PhoenixHwang/PicGo@master"
         }
@@ -178,6 +205,28 @@
         }
       ],
       "defaultId": "eb11e3ee-ea04-4c40-90e6-1151e3872dba"
+    },
+    "sftpplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "ccdbf7ad-3e48-434c-8ab5-88c8c59ce194",
+          "_createdAt": 1695406945685,
+          "_updatedAt": 1695406945685
+        }
+      ],
+      "defaultId": "ccdbf7ad-3e48-434c-8ab5-88c8c59ce194"
+    },
+    "telegraphplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "a66cecfc-a1d3-4ba8-b6c3-b55a112b664b",
+          "_createdAt": 1695406946477,
+          "_updatedAt": 1695406946477
+        }
+      ],
+      "defaultId": "a66cecfc-a1d3-4ba8-b6c3-b55a112b664b"
     }
   },
   "picgoPlugins": {},
